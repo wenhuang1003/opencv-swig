@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
+project(test C CXX)
 
 find_package(SWIG REQUIRED)
 set(CMAKE_SWIG_FLAGS "-I${CMAKE_CURRENT_SOURCE_DIR}/../lib/")
